@@ -1,6 +1,6 @@
-			<footer class="footer" role="contentinfo">
+			<footer class="footer row" role="contentinfo">
 			
-				<div id="inner-footer" class="wrap clearfix">
+				<div id="inner-footer" class="twelve columns clearfix">
 					
 					<nav role="navigation">
     					<?php bones_footer_links(); ?>

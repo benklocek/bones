@@ -2,9 +2,9 @@
 			
 			<div id="content">
 			
-				<div id="inner-content" class="wrap clearfix">
+				<div id="inner-content" class="row clearfix">
 				
-				    <div id="main" class="eightcol first clearfix" role="main">
+				    <div id="main" class="eight columns first clearfix" role="main">
 				
 						<h1 class="archive-title h2"><?php post_type_archive_title(); ?></h1>
 

@@ -86,10 +86,8 @@ body {
 03. LAYOUT & GRID STYLES
 *********************/
 
-.wrap {
-	width: 96%;
-	margin: 0 auto;
-}
+.row{ width: auto; }
+.columns{ padding: 0 .5em;}
 
 /*********************
 04. LINK STYLES
@@ -325,17 +323,26 @@ and more scalable.
 
 			ul, ol {
 
-				li {}
+				margin: 5px 0 30px;
+
+				li { 
+					padding-left: 15px;
+					margin-bottom: 25px;
+				}
 
 			}
 
 			ul {
-
+				list-style: square;
+				margin-left: 20px;
 				li {}
 
 			}
 
 			ol {
+				list-style-type: decimal;
+				padding-left: 2em;
+				margin-bottom: 2em;
 
 				li {}
 

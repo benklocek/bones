@@ -17,9 +17,9 @@ taxonomy-shoes.php
 			
 			<div id="content">
 			
-				<div id="inner-content" class="wrap clearfix">
+				<div id="inner-content" class="row clearfix">
 			
-				    <div id="main" class="eightcol first clearfix" role="main">
+				    <div id="main" class="eight columns first clearfix" role="main">
 				
 					    <h1 class="archive-title h2"><span><?php _e("Posts Categorized:", "bonestheme"); ?></span> <?php single_cat_title(); ?></h1>
 
